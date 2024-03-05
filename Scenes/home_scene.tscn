@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://da74488jjbeb1"]
+
+[ext_resource type="PackedScene" uid="uid://0m0qewdy8oha" path="res://Assets/Prefabs/Player/Player.tscn" id="1_r6yhm"]
+
+[node name="HomeScene" type="Node2D"]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_r6yhm")]
+position = Vector2(85, 128)
+scale = Vector2(0.5, 0.5)
